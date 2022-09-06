@@ -1,0 +1,1534 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Rabia YAŞA KOŞTAŞ" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="In this repository you will find a Python implementation of the methods in the paper IoTDevID - A Behavior-Based Device Identification Method for the IoT." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://example.com/project/iotdevidv2-main/readme/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu8d234a82ff4dd5c4a89888184de83dc4_18106_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu8d234a82ff4dd5c4a89888184de83dc4_18106_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://example.com/project/iotdevidv2-main/readme/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="Academic" />
+  <meta property="og:url" content="https://example.com/project/iotdevidv2-main/readme/" />
+  <meta property="og:title" content="IoTDevID - A Behavior-Based Device Identification Method for the IoT | Academic" />
+  <meta property="og:description" content="In this repository you will find a Python implementation of the methods in the paper IoTDevID - A Behavior-Based Device Identification Method for the IoT." /><meta property="og:image" content="https://example.com/media/icon_hu8d234a82ff4dd5c4a89888184de83dc4_18106_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://example.com/media/icon_hu8d234a82ff4dd5c4a89888184de83dc4_18106_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-27T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-27T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/project/iotdevidv2-main/readme/"
+  },
+  "headline": "IoTDevID - A Behavior-Based Device Identification Method for the IoT",
+  
+  "datePublished": "2022-05-27T00:00:00Z",
+  "dateModified": "2022-05-27T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Rabia YAŞA KOŞTAŞ"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/media/icon_hu8d234a82ff4dd5c4a89888184de83dc4_18106_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "In this repository you will find a Python implementation of the methods in the paper IoTDevID - A Behavior-Based Device Identification Method for the IoT."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>IoTDevID - A Behavior-Based Device Identification Method for the IoT | Academic</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f019b13f7ec674a0f61061ec9be7510d" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#news"><span>News</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>IoTDevID - A Behavior-Based Device Identification Method for the IoT</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 27, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/kkostas" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/kahramankostas/IoTDevIDv2" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>Github</a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="iotdevid-a-behavior-based-device-identification-method-for-the-iot">IoTDevID: A Behavior-Based Device Identification Method for the IoT</h1>
+<h1 id="overview">Overview</h1>
+<p>In this repository you will find a Python implementation of the methods in the paper IoTDevID: A Behavior-Based Device Identification Method for the IoT.</p>
+<p><a href="https://arxiv.org/abs/2102.08866v2" target="_blank" rel="noopener"><em>Kahraman  Kostas,  Mike  Just,  and  Michael  A.  Lones. IoTDevID: A Behavior-Based Device Identification Method for the IoT, arXiv preprint, arxiv:2102.08866v2, 2021.</em></a></p>
+<h1 id="what-is-iotdevid">What is IoTDevID?</h1>
+<p>Device identification is one way to secure a network of IoT devices, whereby devices identified as suspicious can subsequently be isolated from a network. In this study, we present a machine learning-based method, <em>IoTDevID</em>, that recognises devices through characteristics of their network packets. As a result of using a rigorous feature analysis and selection process, our study offers a generalizable and realistic approach to modelling device behavior, achieving high predictive accuracy across two public datasets. The model&rsquo;s underlying feature set is shown to be more predictive than existing feature sets used for device identification, and is shown to generalise to data unseen during the feature selection process. Unlike most existing approaches to IoT device identification, IoTDevID is able to detect devices using non-IP and low-energy protocols.</p>
+<h1 id="requirements-and-infrastructure">Requirements and Infrastructure:</h1>
+<p>Wireshark and Python 3.6 were used to create the application files. Before running the files, it must be ensured that <a href="https://www.wireshark.org/" target="_blank" rel="noopener">Wireshark</a>, <a href="https://www.python.org/downloads/" target="_blank" rel="noopener">Python 3.6+</a> and the following libraries are installed.</p>
+<table>
+<thead>
+<tr>
+<th>Library</th>
+<th>Task</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://scapy.net/" target="_blank" rel="noopener"> Scapy </a></td>
+<td>Packet(Pcap) crafting</td>
+</tr>
+<tr>
+<td><a href="https://scapy.net/" target="_blank" rel="noopener"> tshark </a></td>
+<td>Packet(Pcap) crafting</td>
+</tr>
+<tr>
+<td><a href="http://scikit-learn.org/stable/install.html" target="_blank" rel="noopener"> Sklearn </a></td>
+<td>Machine Learning &amp; Data Preparation</td>
+</tr>
+<tr>
+<td><a href="https://pypi.org/project/xverse/" target="_blank" rel="noopener"> xverse </a></td>
+<td>Feature importance/voting</td>
+</tr>
+<tr>
+<td><a href="http://www.numpy.org/" target="_blank" rel="noopener"> Numpy </a></td>
+<td>Mathematical Operations</td>
+</tr>
+<tr>
+<td><a href="https://pandas.pydata.org/pandas-docs/stable/install.html" target="_blank" rel="noopener"> Pandas  </a></td>
+<td>Data Analysis</td>
+</tr>
+<tr>
+<td><a href="https://matplotlib.org/users/installing.html" target="_blank" rel="noopener"> Matplotlib </a></td>
+<td>Graphics and Visuality</td>
+</tr>
+<tr>
+<td><a href="https://seaborn.pydata.org/" target="_blank" rel="noopener">Seaborn </a></td>
+<td>Graphics and Visuality</td>
+</tr>
+<tr>
+<td><a href="https://graphviz.readthedocs.io/en/stable/manual.html" target="_blank" rel="noopener">graphviz </a></td>
+<td>Graphics and Visuality</td>
+</tr>
+</tbody>
+</table>
+<p>The technical specifications of the computer used for experiments are given below.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Central Processing Unit</td>
+<td>:</td>
+<td>Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz 2.90 GHz</td>
+</tr>
+<tr>
+<td>Random Access Memory</td>
+<td>:</td>
+<td>8 GB (7.74 GB usable)</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>:</td>
+<td>Windows 10 Pro 64-bit</td>
+</tr>
+<tr>
+<td>Graphics Processing Unit</td>
+<td>:</td>
+<td>AMD Readon (TM) 530</td>
+</tr>
+</tbody>
+</table>
+<h1 id="implementation">Implementation:</h1>
+<p>The implementation phase consists of 5 steps, which are:</p>
+<ul>
+<li>Feature Extraction</li>
+<li>Feature Selection</li>
+<li>Algorithm Selection</li>
+<li>Performance Evaluation</li>
+<li>Comparison with Previous Work</li>
+</ul>
+<p>Each of these steps is implemented using one or more Python files. The same file was saved with both &ldquo;py&rdquo; and &ldquo;ipynb&rdquo; extensions. The code they contain is exactly the same. The file with the ipynb extension has the advantage of saving the state of the last run of that file and the screen output. Thus, screen output can be seen without re-running the files. Files with the ipynb extension can be run using <a href="http://jupyter.org/install" target="_blank" rel="noopener">jupyter notebook</a>.</p>
+<h2 id="01-feature-extraction-pcap2csv">01 Feature Extraction (PCAP2CSV)</h2>
+<h4 id="section-iiic-in-the-article">Section III.C in the article</h4>
+<p>There are four files relevant to this section:</p>
+<ul>
+<li><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0001%20Feature%20Extraction%20-%20PCAP2CSV/01.1%20Aalto%20feature%20extraction%20IoTDevID.ipynb" target="_blank" rel="noopener">01.1 Aalto feature extraction IoTDevID</a></li>
+<li><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0001%20Feature%20Extraction%20-%20PCAP2CSV/01.2%20Aalto%20feature%20extraction%20IoTSense-%20IoT%20Sentinel.ipynb" target="_blank" rel="noopener">01.2 Aalto feature extraction IoTSense - IoT Sentinel</a></li>
+<li><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0001%20Feature%20Extraction%20-%20PCAP2CSV/01.3%20UNSW%20feature%20extraction%20IoTDevID.ipynb" target="_blank" rel="noopener">01.3 UNSW feature extraction IoTDevID</a></li>
+<li><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0001%20Feature%20Extraction%20-%20PCAP2CSV/01.4%20UNSW%20feature%20extraction%20IoTSense-%20IoT%20Sentinel.ipynb" target="_blank" rel="noopener">01.4 UNSW feature extraction IoTSense - IoT Sentinel</a></li>
+</ul>
+<p>These files convert the files with pcap extension to single packet-based, CSV extension fingerprint files (IoT Sentinel, IoTSense, IoTDevID individual packet based feature sets) and creates the labeling.</p>
+<p>The processed datasets are shared in the repository. However, raw versions of the datasets used in the study and their addresses are given below.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>capture year</th>
+<th>Number of Devices</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://research.aalto.fi/en/datasets/iot-devices-captures" target="_blank" rel="noopener"> Aalto University </a></td>
+<td>2016</td>
+<td>31</td>
+<td>Benign</td>
+</tr>
+<tr>
+<td><a href="https://iotanalytics.unsw.edu.au/iottraces" target="_blank" rel="noopener"> UNSW-Sydney IEEE TMC </a></td>
+<td>2016</td>
+<td>31</td>
+<td>Benign</td>
+</tr>
+<tr>
+<td><a href="https://iotanalytics.unsw.edu.au/attack-data" target="_blank" rel="noopener"> UNSW-Sydney ACM SOSR</a></td>
+<td>2018</td>
+<td>28</td>
+<td>Benign &amp; Malicious</td>
+</tr>
+</tbody>
+</table>
+<p>Since the UNSW data are very large, we filter the data on a device and session basis. You can access the Pcap files obtained from this filtering process from <a href="https://drive.google.com/file/d/1RSnQJNTHj8FoS1KvBxbCGaS4sYmX3sPF/view" target="_blank" rel="noopener"> this link (Used Pcap Files)</a>.</p>
+<p>In addition, the CSVs.zip file contains the feature sets that are the output of this step and that we used in our experiments. These files:</p>
+<ul>
+<li>Aalto_test_IoTDevID.csv</li>
+<li>Aalto_train_IoTDevID.csv</li>
+<li>Aalto_IoTSense_Test.csv</li>
+<li>Aalto_IoTSense_Train.csv</li>
+<li>Aalto_IoTSentinel_Test.csv</li>
+<li>Aalto_IoTSentinel_Train.csv</li>
+<li>UNSW_test_IoTDevID.csv</li>
+<li>UNSW_train_IoTDevID.csv</li>
+<li>UNSW_IoTSense_Test.csv</li>
+<li>UNSW_IoTSense_Train.csv</li>
+<li>UNSW_IoTSentinel_Test.csv</li>
+<li>UNSW_IoTSentinel_Train.csv</li>
+</ul>
+<h2 id="02-feature-selection">02 Feature Selection</h2>
+<h4 id="section-iva-in-the-article">Section IV.A in the article</h4>
+<p>There are three files relevant to this section.</p>
+<ul>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0002%20Feature%20Selection/02.1%20Feature%20importance%20voting%20and%20pre-assessment%20of%20features.ipynb" target="_blank" rel="noopener">02.1 Feature importance voting and pre-assessment of features: </a></strong>
+This file calculates the importance scores for each feature using six feature score calculation methods. It then votes for features using these scores. It lists the feature scores and the votes they have received and shows them on a plot. The six feature importance score calculation methods used are as follows.</p>
+<ul>
+<li>Information Value using Weight of evidence.</li>
+<li>Variable Importance using Random Forest.</li>
+<li>Recursive Feature Elimination.</li>
+<li>Variable Importance using Extra trees classifier.</li>
+<li>Chi-Square best variables.</li>
+<li>L1-based feature selection.</li>
+</ul>
+</li>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0002%20Feature%20Selection/02.2%20Comparison%20of%20isolated%20and%20CV%20methods.ipynb" target="_blank" rel="noopener">02.2 Comparison of isolated data and CV methods: </a></strong>
+In this file, the results of the isolated test-training data and the cross-validated data are compared.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0002%20Feature%20Selection/02.3%20Feature%20selection%20process%20using%20genetic%20algorithm%20Aalto.ipynb" target="_blank" rel="noopener">02.3 Feature selection process using genetic algorithm: </a></strong>
+In this file, feature selection is performed by using a genetic algorithm.</p>
+</li>
+</ul>
+<h2 id="03-algorithm-selection">03 Algorithm Selection</h2>
+<h4 id="section-ivb-in-the-article">Section IV.B in the article</h4>
+<p>There are two files relevant to this section.</p>
+<ul>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0003%20Algorithm%20Selection/03.%201%20Hyperparameter%20Optimization.ipynb" target="_blank" rel="noopener">03.1 Hyperparameter Optimization: </a></strong>
+In this file, hyperparameter optimization is applied via <a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html" target="_blank" rel="noopener">sklearn-Randomizedsearch</a> to the machine learning models being used. These machine learning models are:</p>
+<ul>
+<li>Decision Trees (DT)</li>
+<li>Naïve Bayes (NB)</li>
+<li>Gradient Boosting (GB)</li>
+<li>k-Nearest Neighbours (kNN)</li>
+<li>Random Forest (RF)</li>
+<li>Support Vector Machine (SVM)</li>
+</ul>
+</li>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0003%20Algorithm%20Selection/03.%202%20Classification%20of%20Individual%20packets%20for%20Aalto%20Dataset.ipynb" target="_blank" rel="noopener">03. 2 Classification of Individual packets for Aalto Dataset: </a></strong>
+This file trains machine learning models using the individual packets of Aalto University dataset using the methods mentioned above and the optimised hyperparameters.</p>
+</li>
+</ul>
+<h2 id="04-performance-evaluation">04 Performance Evaluation</h2>
+<h4 id="section-v--in-the-article">Section V  in the article</h4>
+<p>There are four files relevant to this section. In our experiments above, we found that DT offers the best balance between predictive performance and inference time among other machine learning methods. Therefore, only DT is used in all our subsequent experiments.</p>
+<ul>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0004%20Performance%20Evaluation/04.1%20Determination%20of%20aagregetion%20size.ipynb" target="_blank" rel="noopener">04.1 Determination of aagregetion size: </a></strong>
+In this file, different aggregation sizes are tested. For this purpose, groups of different sizes  (from 2 to 25) are formed and the performance results of these groups are observed.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0004%20Performance%20Evaluation/04.2%20Classification%20of%20ind-aag-mixed%20packets%20for%20Aalto%20Dataset.ipynb" target="_blank" rel="noopener">04.2 Classification of ind-aag-mixed packets for Aalto Dataset: </a></strong>
+In this file, results are obtained for the Aalto dataset using individual, aggregated and mixed methods. A group size of 13 was used in the aggregation  operations.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0004%20Performance%20Evaluation/04.3%20Classification%20of%20%20ind-aag-mixed%20packets%20for%20UNSW%20Dataset.ipynb" target="_blank" rel="noopener">04.3 Classification of  ind-aag-mixed packets for UNSW Dataset: </a></strong>
+In this file, results are obtained for the UNSW dataset using individual, aggregated and mixed methods. A group size of 13 was used in the aggregation  operations.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0004%20Performance%20Evaluation/04.4%20Aalto%20results%20with%20combined%20labels.ipynb" target="_blank" rel="noopener">04.4 Aalto results with combined labels: </a></strong>
+In this file,  to deal with lower performance caused by the fact that the Aalto dataset contains many very similar devices, these similar devices are considered as a group and collected under the same label.</p>
+</li>
+</ul>
+<h2 id="05-comparison-with-previous-work">05 Comparison with Previous Work</h2>
+<h4 id="section-vi--in-the-article">Section VI  in the article</h4>
+<p>There are two files relevant to this section.</p>
+<ul>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0005%20compare%20with%20others/05.1%20Aalto%20IoTSense%20%26%20IoTSentinel%20%20Normal%2C%20Aagregeted%2C%20Mixed%20Results.ipynb" target="_blank" rel="noopener">05.1 Aalto IoTSense &amp; IoTSentinel  Normal, Aagregeted, Mixed Results: </a></strong>
+This file trains machine learning models using Aalto University data for 3 studies (IoTDevID, <a href="https://dl.acm.org/doi/pdf/10.1145/3266444.3266452" target="_blank" rel="noopener">IoTSense</a>, <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7980167" target="_blank" rel="noopener">IoT Sentinel</a>) with an individual, aggregated and mixed approach in order to compare the feature set  performances.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/kahramankostas/IoTDevIDv2/blob/main/0005%20compare%20with%20others/05.2%20UNSW%20IoTSense%20%26%20IoTSentinel%20%20Normal%2C%20Aagregeted%2C%20Mixed%20Results.ipynb" target="_blank" rel="noopener">05.2 UNSW IoTSense &amp; IoTSentinel  Normal, Aagregeted, Mixed Results: </a></strong>
+This file trains machine learning models using UNSW data for 3 studies (IoTDevID, <a href="https://dl.acm.org/doi/pdf/10.1145/3266444.3266452" target="_blank" rel="noopener">IoTSense</a>, <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7980167" target="_blank" rel="noopener">IoT Sentinel</a>) with an individual, aggregated and mixed approach in order to compare the feature set performances.</p>
+</li>
+</ul>
+<h1 id="license">License</h1>
+<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details</p>
+<h1 id="citations">Citations</h1>
+<p>If you use the source code please cite the following paper:</p>
+<pre tabindex="0"><code>@misc{kostas2021iotdevid2,
+      title={IoTDevID: A Behavior-Based Device Identification Method for the IoT}, 
+      author={Kahraman Kostas and Mike Just and Michael A. Lones},
+      year={2021},
+      eprint={2102.08866v2},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+</code></pre><p>Contact:
+<em>Kahraman Kostas
+<a href="mailto:kk97@hw.ac.uk">kk97@hw.ac.uk</a></em></p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/device-identification/">Device Identification</a>
+  
+  <a class="badge badge-light" href="/tag/machine-learning/">Machine Learning</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://example.com/project/iotdevidv2-main/readme/&amp;text=IoTDevID%20-%20A%20Behavior-Based%20Device%20Identification%20Method%20for%20the%20IoT" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://example.com/project/iotdevidv2-main/readme/&amp;t=IoTDevID%20-%20A%20Behavior-Based%20Device%20Identification%20Method%20for%20the%20IoT" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=IoTDevID%20-%20A%20Behavior-Based%20Device%20Identification%20Method%20for%20the%20IoT&amp;body=https://example.com/project/iotdevidv2-main/readme/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://example.com/project/iotdevidv2-main/readme/&amp;title=IoTDevID%20-%20A%20Behavior-Based%20Device%20Identification%20Method%20for%20the%20IoT" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=IoTDevID%20-%20A%20Behavior-Based%20Device%20Identification%20Method%20for%20the%20IoT%20https://example.com/project/iotdevidv2-main/readme/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://example.com/project/iotdevidv2-main/readme/&amp;title=IoTDevID%20-%20A%20Behavior-Based%20Device%20Identification%20Method%20for%20the%20IoT" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://example.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu146c0e669bbb7677a5dcfd01bc64668c_18182_270x270_fill_q75_lanczos_center.jpg" alt="Rabia YAŞA KOŞTAŞ"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://example.com/">Rabia YAŞA KOŞTAŞ</a></h5>
+      <h6 class="card-subtitle">PhD Candidate</h6>
+      <p class="card-text">Rabia is a PhD student at School of Informatics, The University of Edinburgh, UK.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/rykostas" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=3aVUjnMAAAAJ&amp;hl=tr" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/rykostas" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/rykostas/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.e66e385e2f1df861699d60acd7a9c670.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

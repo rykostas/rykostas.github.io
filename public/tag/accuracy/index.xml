@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accuracy | Academic</title>
+    <link>https://example.com/tag/accuracy/</link>
+      <atom:link href="https://example.com/tag/accuracy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Accuracy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu139c6e07bff1192a5a2866449b540379_40004_512x512_fill_lanczos_center_3.png</url>
+      <title>Accuracy</title>
+      <link>https://example.com/tag/accuracy/</link>
+    </image>
+    
+    <item>
+      <title>Basitçe Accuracy, Precision, Recall ve F1 Score</title>
+      <link>https://example.com/post/2020-06-27-hirsiz-polis-copy/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/2020-06-27-hirsiz-polis-copy/</guid>
+      <description>&lt;h1 id=&#34;basitçe-accuracy-precision-recall-ve-f1-score&#34;&gt;Basitçe Accuracy, Precision, Recall ve F1 Score&lt;/h1&gt;
+&lt;h3 id=&#34;bir-sınıflandırma-problemininişleminin-ne-kadar-başarılı-olduğunu-anlamak-için-çeşitli-değerlendirme-kriterleriyle-sonuçlarımızı-analiz-etmemiz-gerekir-bu-yazıda-en-basit-şekilde-bu-kriterler-nelerdir-ve-nasıl-kullanılırlar-sorularına-ışık-tutacağız&#34;&gt;Bir sınıflandırma probleminin/işleminin ne kadar başarılı olduğunu anlamak için çeşitli değerlendirme kriterleriyle sonuçlarımızı analiz etmemiz gerekir. Bu yazıda en basit şekilde bu kriterler nelerdir ve nasıl kullanılırlar sorularına ışık tutacağız.&lt;/h3&gt;
+&lt;p&gt;Her şeyden önce problemimizi belirleyelim/yaratalım:&lt;/p&gt;
+&lt;p&gt;Hayali bir markete güvenlik şefi olarak alınmak üzere başvurduğunuzu düşünün. Marketin sahibi size, mahallede hırsızlık oranlarının çok yüksek olduğunu bunun için sezgileri kuvvetli birini aradıklarını söyleyerek bir uygulama yapmanızı istiyor. Bu işlem sonucunda sizin ne kadar başarılı olduğunuz gözlemlenecek. Uygulama şöyle:&lt;/p&gt;
+&lt;p&gt;Marketten çıkan 10 müşterinin hırsız olup olmadığını tahmin edeceksiniz. Bu Tahmin verilerini oluşturacak. Market çıkışında bu 10 müşterinin hepsinin üstü aranacak ve hırsız olup olmadıklarına bakılarak Gerçek veriler oluşturulacak. Daha sonra bu iki veri kıyaslanarak sizin ne kadar başarılı olduğunuz aanaliz edilecek.&lt;/p&gt;
+&lt;p&gt;Aşağıdaki resimde (Şekil 1)Gerçek ve Tahmin verilerini görüyorsunuz. Kırmız renk hırsızı, siyah ise normal müşteriyi gösteriyor.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Şekil 1- Tahmin ve Gerçek verilerin görselleştirilmesi (kırmızı: hırsız, siyah:normal&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://miro.medium.com/max/1240/1*QmYVsvEhcN1CMf8xqDskgg.png&#34; alt=&#34;cmd&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Şekil 1 incelenirse bazı tahminlerimizde başarılı bazılarında ise başarısız olduğumuzu görürüz. Bu tahminleri 4 grup altında toplayabiliriz. Bunlar :&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TP&lt;/strong&gt;: Eğer bir kişiye hırsız dediniz ve o kişi hırsızsa &lt;strong&gt;True Positive&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TN&lt;/strong&gt;: Eğer bir kişiye hırsız değil dediniz ve o kişi hırsız değilse &lt;strong&gt;True Negative&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FP&lt;/strong&gt;: Eğer bir kişiye hırsız dediniz ve o kişi hırsız değilse &lt;strong&gt;False Positive&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FN&lt;/strong&gt;: Eğer bir kişiye hırsız değil dediniz ve o kişi hırsızsa &lt;strong&gt;False Negative&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;![cmd](&lt;a href=&#34;https://miro.medium.com/max/1400/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miro.medium.com/max/1400/1&lt;/a&gt;*9xoUazA-Ghv3K2iOvbLRvw.png =650x))
+&lt;sub&gt;&lt;sup&gt;         Şekil 2- TP, TN, FP ve FN kavramlarının görselleştirilmesi.&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;Bu dört grubu, bir arada gösteren tabloya confusion matrix (Hata Matrisi) diyoruz. Tahminlerimizin confusion matrix üzerindeki dağılımını Şekil 3&amp;rsquo;de görebilirsiniz. Şekil ürerindeki sari daireler tahmin edilen müşterilerin numaralarını gösterir.&lt;/p&gt;
+&lt;p&gt;![cmd](&lt;a href=&#34;https://miro.medium.com/max/1400/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miro.medium.com/max/1400/1&lt;/a&gt;*wXOW5qTZMWIgwC_9WiFFlg.png  =650x))
+&lt;sub&gt;&lt;sup&gt; Şekil 3- Tahminlerimizin confusion matrix üzerindeki dağılımı&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;Değerlendirme yöntemleri arasında en yaygın olarak kullanılan yöntem, &lt;strong&gt;Accuracy (Doğruluk)&lt;/strong&gt;’ dur.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Accuracy&lt;/strong&gt; tüm doğru cevaplarınızın(TP), tüm cevaplarınıza (TP,TN,FP,FN) oranı olarak kısaca açıklanabilir ( TP/(TP+TN+FP+FN)). Sık kullanılmasına rağmen accuracy’nin bir dezavantajı vardır: dengesiz dağılıma sahip gruplarda sağlıklı sonuç vermez.&lt;/p&gt;
+&lt;p&gt;şöyle bir örnekle açıklayalım: yine markette hırsızlığı tespit etmeye çalıştığımızı farzedelim. İnsanların pek azı hırsızdır. Diyelim ki çalınan ürünleri tespit eden bir alarm sistemimiz var ve ne yazık ki sistemimiz bozuk. 100 kişilik müşterilerimiz içerisinde yalnızca bir hırsız olsun. Sitemimiz bozuk olduğu için bu kişiyi tespit edemedik ancak günün sonunda başarımızı ağer accuracy ile ölçersek (Şekil 4&amp;rsquo;ü inceleyin):&lt;/p&gt;
+&lt;p&gt;![cmd](&lt;a href=&#34;https://miro.medium.com/max/1400/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miro.medium.com/max/1400/1&lt;/a&gt;*3NSDQLa6MJWqwDQ9WVGRVA.png  =650x))
+&lt;sub&gt;&lt;sup&gt; Şekil 4 — Örnek için yaratılan confusion matrix ve Accuracy’nin hesaplaması&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;işlemin sonucunda %99 oranında başarılı olduğumuz görülür. Aslında hiç fena değil :)
+Sistemimiz tamamen arızalı iken bile %99 başarı oranı sağlıyor ki bu tamamen yanıltıcı ve hiç istediğimiz bir şey değil.&lt;/p&gt;
+&lt;p&gt;İşte tam olarak bu yüzden accuracy dışında da çeşitli değerlendirme yöntemleri kullanılmaktadır. Bunlar şu şekilde tanımlanabilir:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Recall (Duyarlılık/Hassasiyet)&lt;/strong&gt;: doğru tespit ettiğimiz Pozitif sınıfların (TP, doğru tahmin ettiğimiz hırsızlar), Tüm pozitiflere oranı (bizim doğru tahmin etmemizden bağımsız olarak gerçekten hırsız olanlar, yani TP+FN). Şekil 5, İlk hücre bölü ilk sütun (TP/(TP+FN)).&lt;/p&gt;
+&lt;p&gt;![cmd](&lt;a href=&#34;https://miro.medium.com/max/1400/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miro.medium.com/max/1400/1&lt;/a&gt;*6x1aLVFtaeoor8Ak2XFbkQ.png  =550x))
+&lt;sub&gt;&lt;sup&gt; Şekil 5- Örnek confusion matrix &lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;**Precision (Kesinlik) **: doğru tespit ettiğimiz Pozitif sınıfların (TP, doğru tahmin ettiğimiz hırsızlar) tüm hırsız diye etiketlediğimiz/adlandırdığımız verilere oranı (TP+FP). Başka bir değişle bildiğimiz hırsızların sayısının, bildiğimiz hırsızlar ve yanlış alarmların toplamına oranı. Şekil 5, İlk hücre bölü ilk satır (TP/(TP+FP))&lt;/p&gt;
+&lt;p&gt;Burada precision/ recall arasındaki dengeden de bahsetmek gerekir. Yaptığınız işe göre precision/ recall arasında tercih yapmanız gerekebilir.&lt;/p&gt;
+&lt;p&gt;Ek örnekle açıklayalım:
+Market örneğinde, bazen hırsızların çaldıkları şeyleri çok iyi sarıp sarmaladıklarında, cihazımızı kandırabildiklerini düşünelim. Marketteki alarmımızın bir hassasiyet ayarı olsun, eğer bu ayarı yükseltirsek, sarıp sarmalanan cihazları da yakalıyor (gerçek hırsızlar yakalanıyor / TP artıyor). Ancak, bunun bir dezavantajı var, bu alarm bazen üzerinde çeşitli metal eşya taşıyan normal müşteriler için de ötüyor (yanlış alarmlar — FP yükseliyor). Yaptığımız ayar neticesinde, TP oranını yükselttik, FN sayısında bir değişiklik olmadı bu yüzden Recall değerimiz yükselmeye başladı. Diğer taraftan yaptığımız bu hassas ayar yanlış alarm sayısını yükselttiği için Precision değerimiz düşmeye başladı.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Başka bir deyişle sistemimizin hassasiyetini (Recall)arttırmamız kesinlik (Precision) değerimizin düşmesine neden olabilir&lt;/strong&gt;. Burada önemli olan şey sisteminizin öncelikleridir. Önceliklerinizi analiz ederek bu dengeyi iyi ayarlamanız gerekir.&lt;/p&gt;
+&lt;p&gt;Accuracy’ye alternatif olabilecek bir başka değerlendirme yöntemi ise &lt;strong&gt;F1 Score&lt;/strong&gt;’dur. F1 Score’un dengesiz dağılıma sahip verisetleri için kullanımı daha doğru olacaktır.&lt;/p&gt;
+&lt;p&gt;![cmd](&lt;a href=&#34;https://miro.medium.com/max/1400/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miro.medium.com/max/1400/1&lt;/a&gt;*6k0DZYRQ23sV4tHiSGfP8A.png  =750x))
+&lt;sub&gt;&lt;sup&gt; F1 Score Formülü&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;F1 Score, Precision ve Recall’un harmonik ortalamasıdır. Harmonik ortalamanın normal ortalamadan farkı, taraf güçsüzün yanında olmasıdır 😊. F1, yüksek değeri cezalandırır, böylece bu iki değerden yüksek olan düşük olanı manipüle etmesinin önüne geçer . Harmonik ortalama ve normal ortalamanın farkını sezmek için aşağıdaki tabloyu inceleyebilirsiniz.&lt;/p&gt;
+&lt;p&gt;![cmd](&lt;a href=&#34;https://miro.medium.com/max/1400/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miro.medium.com/max/1400/1&lt;/a&gt;*af6_SHR6jPJtMTjbo0IjQw.png =800x))
+&lt;sub&gt;&lt;sup&gt;harmonik ortalama vs normal ortalama&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

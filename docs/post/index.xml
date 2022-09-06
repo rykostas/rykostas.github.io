@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Academic</title>
+    <link>https://example.com/post/</link>
+      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu8d234a82ff4dd5c4a89888184de83dc4_18106_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://example.com/post/</link>
+    </image>
+    
+    <item>
+      <title>Huawei UK University Challenge Competition 2021.</title>
+      <link>https://example.com/post/2022-01-26-huawei/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/2022-01-26-huawei/</guid>
+      <description>&lt;h2 id=&#34;turkish-students-win-huawei-uk-university-challenge-competition-2021&#34;&gt;Turkish Students win Huawei UK University Challenge Competition 2021.&lt;/h2&gt;
+&lt;p&gt;TWO Turkish students doing a PhD in computer science in the UK won the Huawei UK University Challenge Competition 2021.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;1.jpg&#34; alt=&#34;cmd&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Kahraman Koştaş studying at the Heriot Watt University along with Rabia Yaşa Koştaş who is enrolled at The University of Edinburgh, are in the UK part of the scholarship program organised by the Republic of Turkey to study abroad for postgraduate studies.&lt;/p&gt;
+&lt;p&gt;The PhD students won the top prize in the annual event organised by Huawei UK Research Centre. The group were given two tasks to find a solutions looking at artificial intelligence, with fingerprint and WIFI technology.  Their solution won out of hundred of applications, earning them the top prize of £7,000 as well as Huawei equipment and medals.&lt;/p&gt;
+&lt;p&gt;Speaking to Londra Gazete they said “We came first in the Huawei UK University Challenge Competition 2021, organized by Huawei company across the UK. Our team’s name was Turquoise. Many UK universities participated in this competition at all levels (275 students and 150+ teams).&lt;/p&gt;
+&lt;p&gt;“As a result of this competition, our group was awarded the first place with a gold medal, certificate and financial awards (2 matepad pro tablet computer and £7000).&lt;/p&gt;
+&lt;p&gt;“The concept of the competition was the solution of indoor positioning problems using data science (Data Science for Indoor positioning). For those who are unfamiliar with the subject, a more comprehensive and simple recipe can be called “coding competition with artificial intelligence”. Such competitions are very important in terms of enabling the theoretical knowledge taught at the university to be applied to real life problems and bringing academia and industry together.”&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;2.jpg&#34; alt=&#34;cmd&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
